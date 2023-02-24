@@ -22,6 +22,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<dependency> 
+			<groupId>nz.net.ultraq.thymeleaf</groupId>  
+			<artifactId>thymeleaf-layout-dialect</artifactId> 
+		</dependency>			
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -46,6 +50,20 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>		
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.cyrus822.demo</groupId>
+			<artifactId>common</artifactId>
+			<version>1.0</version>
 		</dependency>		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
