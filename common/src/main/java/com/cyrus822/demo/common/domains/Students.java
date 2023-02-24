@@ -10,7 +10,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
-import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -36,7 +35,6 @@ public class Students implements Serializable {
     private char gender;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @Future(message = "Event Date must be a future date")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date eventDtm; 
+    private Date dob; 
 }
