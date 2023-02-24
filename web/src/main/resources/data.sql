@@ -38,7 +38,7 @@ INSERT INTO myroles (
     usrcode, 
     roles
 ) values (
-    'student@cyrus822.com', 
+    'students@cyrus822.com', 
     'ROLE_STUDENTS'
 );
 
